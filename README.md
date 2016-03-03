@@ -1,0 +1,1 @@
+# angular-restricting-directive-usage-readme
