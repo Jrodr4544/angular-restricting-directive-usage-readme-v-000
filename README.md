@@ -8,6 +8,7 @@ We've learned that directives can be used as HTML attributes and HTML elements, 
 
 - Describe the syntaxes for declaring Directives
 - Restrict our Directive
+- Why we restrict our directives
 
 ## Restrict
 
@@ -34,6 +35,15 @@ The letters available are:
 `E` - used as an element
 `C` - used as a class name
 `M` - used as a comment
+
+They would be used as the following:
+
+```html
+Attribute - <div my-directive></div>
+Element - <my-directive></div>
+Class: <div class="my-directive"></div>
+Comment - <!-- directive: my-directive -->
+```
 
 You might've noticed that we can use directives in class names and comments too. This isn't recommended however, as it is unclear if we're just doing a normal HTML comment or invoking a directive. It also isn't clear if we're adding a class to an element or invoking a directive too.
 
