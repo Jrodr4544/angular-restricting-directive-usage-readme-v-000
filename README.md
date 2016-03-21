@@ -2,7 +2,7 @@
 
 ## Overview
 
-We've learned that directives can be used as HTML attributes and HTML elements, but did you know you can tell Angular to only allow your directive to be used in a certain way?
+We've learned that directives can be used as HTML attributes and HTML elements, but did you know that you can tell Angular to only allow your directive to be used in a certain way?
 
 ## Objectives
 
@@ -50,3 +50,4 @@ You might've noticed that we can use directives in class names and comments too.
 You can use the individual letters or put them together - `'EA'` will allow the directive to be used as an element and an attribute.
 
 By default, restrict is set to 'EA'.
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/angular-restricting-directive-usage-readme'>Restricting Directive Usage </a> on Learn.co and start learning to code for free.</p>
