@@ -40,7 +40,7 @@ They would be used as the following:
 
 ```html
 Attribute - <div my-directive></div>
-Element - <my-directive></div>
+Element - <my-directive></my-directive>
 Class: <div class="my-directive"></div>
 Comment - <!-- directive: my-directive -->
 ```
@@ -51,3 +51,5 @@ You can use the individual letters or put them together - `'EA'` will allow the 
 
 By default, restrict is set to 'EA'.
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/angular-restricting-directive-usage-readme'>Restricting Directive Usage </a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/angular-restricting-directive-usage-readme'>Restricting Directive Usage </a> on Learn.co and start learning to code for free.</p>
